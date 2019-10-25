@@ -1,0 +1,40 @@
+.lg-flex-container
+  .location_container
+    .map-container
+      %iframe{allowfullscreen: "", frameborder: "0", height: "100%", src: "https://www.google.com/maps/embed/v1/place?key=AIzaSyCU2KAsJAljmq_ikSkFT3RZlqgid2Mo2Ts&q=日本+〒860-0002+熊本県熊本市中央区本丸１−１", style: "border:0", width: "100%"}
+    .overview-container
+      .overviews
+        %h2.overvew_topカタラボ
+        %pアドレス : 熊本県熊本市中央区本丸１−１
+        %p営業時間 : 月曜〜金曜10時から3時
+        %p定休日　：　毎週水曜
+        %p駐車場　：　２台
+      .overview-table
+        %table.table
+          %tr.bottom
+            %th 診療時間
+            %th 月
+            %th 火
+            %th 水
+            %th 木
+            %th 金
+            %th 土
+            %th 日・祝
+          %tr.bottom
+            %td 9:00~12:00
+            %td ○
+            %td ○
+            %td ○
+            %td ○
+            %td ○
+            %td ○
+            %td ○
+          %tr.bottom
+            %td 13:00~17:00
+            %td ×
+            %td ×
+            %td ×
+            %td ×
+            %td ×
+            %td ×
+            %td ×

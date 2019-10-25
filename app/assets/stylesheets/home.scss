@@ -1,0 +1,147 @@
+body {
+  margin :0 ;
+  font-family: 'Noto Sans JP';
+}
+.lg-flex-container{
+  width: 100vw;
+  margin: 0;
+}
+.top-img{
+  display: flex;
+  width: 100vw;
+  position: relative;
+}
+.top-message{
+  font-family: 'M PLUS 1p', sans-serif;
+  color: white;
+  position: absolute;
+  top: 25vh;
+  left: 7vw;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.1vw;
+}
+.middle-message{
+  color: white;
+  position: absolute;
+  top: 44.5vh;
+  left: 9.5vw;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.3vw;
+}
+
+.mg-flex-container{
+  width: 100vw;
+  margin: 0;
+  display: flex;
+  flex-flow:row nowrap;
+  justify-content: flex-end;
+}
+.info{
+  width: 90vw;
+  margin-top:3vh;
+  height: 80vh;
+  background-image: url("portrait-1344646_1920.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+.info-message{
+  margin: 0;
+  padding: 0;
+  color: white;
+  position: absolute;
+  top: 20vh;
+  left: 5vw;
+  text-align: center;
+}
+.info-top-massage{
+  line-height: 1em;
+}
+.info-middle-massage{
+  margin-top: 3em;
+  line-height: 1em;
+}
+.tretments{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+}
+.treatment {
+  width: 20vw;
+  height: 60vh;
+  border: solid thin green;
+  margin: 2em;
+  padding: 1em;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.tretment-name{
+  text-align: center;
+}
+.treatment-img {
+ width: 10vw;
+ height: 20vh;
+ margin: 3vh 0 5vh 0;
+}
+.contact{
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 0em;
+  background-color: rgb(100,250,190);
+  margin-bottom: 3vh;
+}
+.location_container{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 3vh;
+}
+.map-container{
+  width: 40vw;
+  height: 50vh;
+}
+.overview-container{
+  align-items: center;
+  display: flex;
+  flex-flow : column nowrap;
+  width: 40vw;
+  height: 50vh;
+}
+.overviews{
+  background-color: rgb(220,250,220);
+  margin:1vh 0;
+  padding:1vh 0;
+  width:30vw;
+  height: 30vh;
+}
+
+.table{
+  text-align: center;
+  width: 35vw;
+}
+
+.bottom {
+  box-shadow: 0px 1px 0px 0px green;
+}
+
+table td { /* 上下だけ引く */
+   padding: 0.3em;        /* セル内側の余白 */
+   margin: 0;
+}

@@ -22,6 +22,7 @@ gem 'haml-rails'
 gem 'bootstrap', '~> 4.3.1'
 gem 'bootstrap_form', '>= 4.2.0'
 gem 'jquery-rails'
+gem 'sendgrid-ruby'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password

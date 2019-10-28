@@ -11,4 +11,15 @@
     = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_pack_tag 'application', 'data-turbolinks-track': 'reload'
   %body
-    = yield
+    .header-container
+      .headers
+        %h1.header-logo カタラボ
+        %span.header ○ カタラボについて
+        %span.header ○ ポリシー
+        %span.header ○ 私たち
+        %span.header ○ アクセス
+        %span.header ○ お知らせ
+        %span.header ○ よくある質問
+      = yield
+    .scroll_button
+      %a#demo_scroll_top{href: "#"} ページTOPへ戻る

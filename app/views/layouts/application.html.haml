@@ -13,13 +13,12 @@
   %body
     .header-container
       .headers
-        %h1.header-logo カタラボ
+        =link_to "カタラボ", root_path, :class => "header-logo"
         %span.header ○ カタラボについて
         %span.header ○ ポリシー
         %span.header ○ 私たち
         %span.header ○ アクセス
         %span.header ○ お知らせ
         %span.header ○ よくある質問
-      = yield
-    .scroll_button
-      %a#demo_scroll_top{href: "#"} ページTOPへ戻る
+    = yield
+    .footer-container

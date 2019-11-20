@@ -1,6 +1,6 @@
-class CreateTretments < ActiveRecord::Migration[6.0]
+class CreateTreatments < ActiveRecord::Migration[6.0]
   def change
-    create_table :tretments do |t|
+    create_table :treatments do |t|
       t.string :title
       t.string :subtitle
       t.text :content

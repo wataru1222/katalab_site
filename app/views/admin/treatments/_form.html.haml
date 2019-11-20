@@ -1,0 +1,10 @@
+= form_for [:admin, treatment] do |f|
+  = f.label :title ,"コンテンツ名"
+  = f.text_area :title
+  = f.label :subtitle ,"サブタイトル"
+  = f.text_area :subtitle
+  = f.label :content ,"説明"
+  = f.text_area :content
+  = f.label :picture
+  = f.file_field :picture
+  = f.submit

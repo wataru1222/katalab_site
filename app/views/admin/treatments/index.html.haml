@@ -1,1 +1,8 @@
+%h1 this is admin treatment
 %h1="admin page"
+
+%h3 コンテンツ一覧
+- @treatments.each do |treatment|
+  %h4= link_to treatment.title, admin_treatment_path(treatment)
+
+%h3= link_to "Create treatment", new_admin_treatment_path

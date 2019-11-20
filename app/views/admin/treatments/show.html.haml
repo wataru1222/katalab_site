@@ -1,0 +1,8 @@
+
+%h1= @treatment.title
+
+%h2= @treatment.subtitle
+%h3= @treatment.content
+%p= image_tag(@treatment.picture_url) if @treatment.picture.present?
+%h3= link_to "Edit", edit_admin_treatment_path
+%h3= link_to "Delete", admin_treatment_path, method: :delete

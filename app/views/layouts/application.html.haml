@@ -10,15 +10,16 @@
     %link{href: "https://fonts.googleapis.com/css?family=M+PLUS+1p&display=swap", rel: "stylesheet"}
     = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_pack_tag 'application', 'data-turbolinks-track': 'reload'
+    =javascript_include_tag 'jquery.js'
   %body
     .header-container
       .headers
         =link_to "カタラボ", root_path, :class => "header-logo"
-        %span.header ○ カタラボについて
-        %span.header ○ ポリシー
-        %span.header ○ 私たち
-        %span.header ○ アクセス
-        %span.header ○ お知らせ
-        %span.header ○ よくある質問
+        %span.header{href: "#1"} ○ カタラボについて
+        %span.header{href: "#2"} ○ ポリシー
+        %span.header{href: "#3"} ○ 私たち
+        %span.header{href: "#4"} ○ アクセス
+        %span.header{href: "#5"} ○ お知らせ
+        %span.header{href: "#6"} ○ よくある質問
     = yield
     .footer-container

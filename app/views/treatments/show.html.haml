@@ -1,0 +1,7 @@
+%h1= @treatment.title
+
+%h2= @treatment.subtitle
+%h3= @treatment.content
+%p= image_tag(@treatment.picture_url) if @treatment.picture.present?
+
+%h1 treatment no admin

@@ -1,5 +1,5 @@
 class HomeController < ApplicationController
   def index
-    @treatments = Tretment.all
+    @treatments = Treatment.all
   end
 end

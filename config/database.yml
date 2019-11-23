@@ -23,4 +23,6 @@ test:
 
 production:
   <<: *default
-  database: katalab_prod
+  adapter: postgresql
+  encoding: unicode
+  pool: 5

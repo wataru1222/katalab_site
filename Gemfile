@@ -17,14 +17,14 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
 
 gem 'devise'
-gem 'pg', group: :production
+gem 'pg'
 gem 'haml-rails'
 gem 'bootstrap', '~> 4.3.1'
 gem 'bootstrap_form', '>= 4.2.0'
 gem 'jquery-rails'
 gem 'sendgrid-ruby'
 gem 'carrierwave'
-gem 'sqlite3', group: :development
+gem 'bootsnap', require: false
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
@@ -35,7 +35,7 @@ gem 'sqlite3', group: :development
 # gem 'image_processing', '~> 1.2'
 
 # Reduces boot times through caching; required in config/boot.rb
-gem 'bootsnap', '>= 1.4.2', require: false
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

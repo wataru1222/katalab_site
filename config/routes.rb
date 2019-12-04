@@ -2,7 +2,6 @@ Rails.application.routes.draw do
   devise_for :admins
   root to: 'home#index'
   resources :contacts, only: [:new, :create]
-  resources :treatments, only: [:index]
 
   resources :treatments,only: [:index, :show]
 

@@ -6,16 +6,3 @@
         .tretment-name
         %h4= treatment.subtitle
         = link_to "", treatments_path,class:"link"
-
-
-        .lg-flex-container
-          .tretments
-            .treatment
-              .tretment-name
-              - @treatments.each do |treatment|
-                %h2= treatment.title
-                .treatment-img
-                %p= image_tag(treatment.picture_url) if treatment.picture.present?
-                .tretment-name
-                %h4= treatment.subtitle
-                = link_to "", treatments_path,class:"link"

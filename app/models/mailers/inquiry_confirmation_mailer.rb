@@ -1,4 +1,4 @@
-class Mailers::InquiryConfirmationMailer < ApplicationMailer
+class Mailers::InquiryConfirmationMailer < Mailers::ApplicationMailer
   default :from => 'wataru.terada1222@gmail.com'
 
   def send_confirmation_email(contact)

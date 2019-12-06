@@ -1,2 +1,2 @@
-class Mailers::InquiryForwardMailer < ApplicationMailer
+class Mailers::InquiryForwardMailer < Mailers::ApplicationMailer
 end

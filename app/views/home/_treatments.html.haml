@@ -1,8 +1,8 @@
 .lg-flex-container
   .tretments
-    .treatment
-      - @treatments.each do |treatment|
+    - @treatments.each_with_index do |treatment,index|
+      .treatment{id: "treatment_div_#{index}"}
         %h2= treatment.title
-        .tretment-name
         %h4= treatment.subtitle
+        %p= treatment.content
         = link_to "", treatments_path,class:"link"

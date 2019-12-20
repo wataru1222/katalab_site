@@ -15,3 +15,12 @@
       = link_to "", treatments_path,class:"link"
       =image_tag "undou_kata_strech_front_man.png",class:"treatment-img"
       %p.tretment-name 練習後のケア、試合後のケア、どうしても自分では、できないまたは時間がかかるところをコンディショニングします。
+
+.lg-flex-container
+  .tretments
+    .treatment
+      - @treatments.each do |treatment|
+        %h2= treatment.title
+        .tretment-name
+        %h4= treatment.subtitle
+        = link_to "", treatments_path,class:"link"

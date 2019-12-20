@@ -69,7 +69,7 @@ body {
 width: 90vw;
 margin-top: 3vh;
 height: 80vh;
-background-image: url("portrait-1344646_1920.jpg");
+background-image: image-url("portrait-1344646_1920.jpg");
 background-size: cover;
 position: relative;
 display: flex;
@@ -103,7 +103,7 @@ justify-content: flex-end;
   margin-top: 3vh;
   width: 90vw;
   height: 80vh;
-  background-image: url(IMG_4498.JPG);
+  background-image: image-url("IMG_4498.JPG")
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
@@ -124,7 +124,43 @@ justify-content: flex-end;
   align-items: center;
   width: 100vw;
 }
-.treatment {
+#treatment_div_0,.treatment {
+  width: 20vw;
+  height: 60vh;
+  border: solid thin green;
+  margin: 2em;
+  padding: 1em;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  -moz-transition: -moz-transform 0.3s linear;
+  -webkit-transition: -webkit-transform 0.3s linear;
+  -o-transition: -o-transform 0.3s linear;
+  -ms-transition: -ms-transform 0.3s linear;
+  transition: transform 0.3s linear;
+}
+#treatment_div_1,.treatment {
+  width: 20vw;
+  height: 60vh;
+  border: solid thin green;
+  margin: 2em;
+  padding: 1em;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  -moz-transition: -moz-transform 0.3s linear;
+  -webkit-transition: -webkit-transform 0.3s linear;
+  -o-transition: -o-transform 0.3s linear;
+  -ms-transition: -ms-transform 0.3s linear;
+  transition: transform 0.3s linear;
+}
+#treatment_div_2,.treatment {
   width: 20vw;
   height: 60vh;
   border: solid thin green;
@@ -167,6 +203,7 @@ justify-content: flex-end;
   -ms-transform: scale(1.05);
   transform: scale(1.05);
 }
+
 .link {
   position: absolute;
   top: 0;

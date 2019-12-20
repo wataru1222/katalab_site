@@ -13,7 +13,9 @@ Rails.application.configure do
     user_name: 'apikey',
     password: ENV['SENDGRID_API_KEY']
    }
-
+   #add
+   config.serve_static_assets = true
+   config.assets.compile = true
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.

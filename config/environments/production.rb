@@ -14,7 +14,7 @@ Rails.application.configure do
     password: ENV['SENDGRID_API_KEY']
    }
    #add
-   config.serve_static_assets = true
+   config.serve_static_files = true
    config.assets.compile = true
   # Settings specified here will take precedence over those in config/application.rb.
 
